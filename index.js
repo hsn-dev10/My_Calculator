@@ -116,7 +116,7 @@ equalsBtn.addEventListener('click',()=>{
 //easter egg btn action
 easterEgg.addEventListener("click",()=>{
 if (confirm("Check out my portfolio?")) {
-  window.location.href = "./portreplacement.html";
+  window.location.href = "./portfolio/portfolio.html";
 }
 });
 document.addEventListener("keydown",(event)=>{
@@ -141,4 +141,5 @@ document.addEventListener("keydown",(event)=>{
         calculator.delete();
     calculator.updateDisplay();
     }
+
 });
